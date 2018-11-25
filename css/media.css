@@ -1,0 +1,397 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    #carousel-text {
+        font-size: 8em;
+    }
+
+    header {
+        padding-bottom: 50px;
+    }
+
+    header .carousel-indicators {
+        right: 5%;
+    }
+    header .carousel-caption {
+        bottom: 0;
+    }
+
+    .form-block-show {
+        padding: 50px 0;
+    }
+    #buy-form label, #rent-form label {
+        margin: 0;
+    }
+
+    footer .form-inline .form-control {
+        width: 280px;
+    }
+    footer #footer-form .btn {
+        padding: 6px 50px;
+    }
+    footer .first-row > .col-xs-12 {
+        padding: 60px 20px;
+    }
+    footer .second-row > .col-xs-12 {
+        padding: 50px 20px 0 20px;
+    }
+    footer .copy-row > .col-xs-12 {
+        padding-bottom: 40px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    #carousel-text {
+        font-size: 6em;
+    }
+
+    #myModal {
+        padding-right: 0!important;
+    }
+    .modal-header .close {
+        margin-top: -120px;
+        margin-right: -10px;
+        opacity: 1;
+    }
+
+    .modal-dialog {
+        width: 95%;
+        max-width: 95%;
+    }
+
+    header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-indicators .active {
+        margin: 12px;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+    }
+    .carousel-indicators li {
+        margin: 12px;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+    }
+    .carousel-caption {
+        padding-bottom: 0;
+    }
+    header .carousel-caption p {
+        margin-bottom: 0;
+    }
+
+    .form-block-show {
+        padding: 35px 0;
+    }
+
+    header .tabs-row {
+        margin-top: 20px;
+    }
+    header .tabs-row ul li a {
+        padding: 13px 20px;
+    }
+
+    label {
+        display: none;
+    }
+    #buy-form button, #rent-form button {
+        height: 43px;
+        padding: 6px 15px;
+        margin-left: 0;
+    }
+
+    #content {
+        padding: 110px 0;
+    }
+    .info-block {
+        padding: 15px;
+    }
+    .info-block p {
+        margin-bottom: 0;
+    }
+    .info-block h2 {
+        margin-bottom: 20px;
+    }
+
+    footer .first-row > .col-xs-12 {
+        padding: 30px 10px;
+    }
+    footer .form-inline .form-control {
+        width: 240px;
+    }
+    footer #footer-form .btn {
+        padding: 6px 35px;
+    }
+    footer h2 {
+        font-size: 28px;
+    }
+    footer .second-row > .col-xs-12 {
+        padding: 30px 10px 10px 10px;
+    }
+    footer .copy-row > .col-xs-12 {
+        padding-bottom: 20px;
+        position: relative;
+    }
+    footer .second-row .soc-list {
+        position: absolute;
+        right: 10px;
+        bottom: -30px;
+        z-index: 10;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    #carousel-text {
+        font-size: 5em;
+        top: 3%;
+        text-shadow: 5px 5px 20px #0c5fa4, -5px -5px 20px #0c5fa4;
+    }
+
+    .affix {
+        padding: 0;
+    }
+    header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-collapse, .navbar {
+        border-bottom: 1px solid #1063a7;
+    }
+
+    .modal-header .close {
+        margin-top: -100px;
+    }
+
+    header li.dropdown {
+        border-left: none;
+        padding-left: 0;
+    }
+    li.out {
+        display: none;
+    }
+    .btn-list {
+        display: inline-block;
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-bottom: 8px;
+        padding: 9px 0;
+    }
+    .btn-list li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+    header .carousel-indicators {
+        top: 30%;
+        right: 10px;
+        width: 30px;
+        height: auto;
+    }
+    header .carousel-caption {
+        position: absolute;
+        right: 5%!important;
+        left: 5%!important;
+    }
+    header .carousel-caption p {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .popover.fade.bottom.in {
+        max-width: 95%;
+        width: 95%;
+        left: 3%!important;
+    }
+    .popover.fade.bottom {
+        max-width: 95%;
+        width: 95%;
+        left: 3%!important;
+    }
+    .gp {
+        margin-right: -6px;
+        width: 50%;
+    }
+    .fb {
+        margin-left: -6px;
+        width: 50%;
+    }
+    .change-pass-link {
+        text-decoration: underline!important;
+        color: #337ab7!important;
+    }
+    #login-form .form-control {
+        height: 40px;
+    }
+
+    .modal-dialog {
+        background: #fff;
+        width: 95%;
+        max-width: 95%;
+        margin-top: 80px;
+    }
+    .modal-header {
+        padding: 5px 15px;
+        border-bottom: 1px solid #e5e5e5!important;
+    }
+    .modal-header h3 {
+        font-size: 20px;
+    }
+    .modal-body {
+        position: relative;
+        padding: 15px 15px 0 15px;
+    }
+    .modal-content {
+        height: 450px;
+        max-height: 450px;
+    }
+    .modal-body #sign-up-form .form-control {
+        height: 40px;
+    }
+    .modal-body #sign-up-form #sign-up-btn {
+        height: 40px;
+        border-radius: 2px;
+        padding: 6px 50px;
+        display: block;
+        width: 100%;
+    }
+
+    .form-block-show {
+        padding: 20px;
+        text-align: left;
+    }
+    header .tabs-row ul li a {
+        padding: 5px 10px;
+        border-radius: 2px 2px 0 0;
+    }
+    header .tabs-row ul {
+        margin-bottom: 0;
+    }
+
+    .popover-content {
+        padding: 10px 5px;
+    }
+    #buy-form .form-control, #rent-form .form-control {
+        height: 37px;
+        border-radius: 2px;
+        width: 100%;
+        color: #4d92c9;
+        margin-bottom: 15px;
+    }
+    #buy-form button, #rent-form button {
+        display: block;
+        width: 100%;
+    }
+    #buy-form select, #rent-form select {
+        background: url(../images/arrow.jpg) no-repeat 295px;
+    }
+    label {
+        display: inline-block;
+    }
+
+    #footer-form {
+        float: none!important;
+    }
+    #footer-form input[type="email"] {
+        float: left;
+        width: 70%;
+        height: 40px;
+    }
+    #footer-form button {
+        float: right!important;
+        width: 30%!important;
+        height: 40px!important;
+    }
+    footer .first-row > .col-xs-12 {
+        padding: 10px;
+    }
+    footer p {
+        margin-bottom: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    #carousel-text {
+        font-size: 3em;
+        top: 2%;
+        text-shadow: 5px 5px 20px #0c5fa4, -5px -5px 20px #0c5fa4;
+    }
+
+    header .carousel-indicators {
+        top: 10%;
+    }
+    .tabs-row .list-inline > li {
+        display: inline-block;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .modal-header .close {
+        margin-top: -95px;
+    }
+    .modal-header h3 {
+        font-size: 18px;
+    }
+    .modal-header p {
+        font-size: 12px;
+    }
+    .modal-body #sign-up-form .form-control {
+        height: 35px;
+        margin-bottom: 15px;
+    }
+    .modal-content {
+        height: 380px;
+        max-height: 380px;
+    }
+    #login-form .form-control {
+        height: 35px;
+    }
+    footer h2 {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+    footer .first-row > .col-xs-12 {
+        padding: 5px 10px;
+    }
+    #footer-form button {
+        height: 35px!important;
+    }
+    #footer-form input[type="email"] {
+        height: 35px;
+    }
+    #content {
+        padding: 50px 0;
+    }
+    .info-block button {
+        height: 35px;
+        border-radius: 2px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    #buy-form .form-control, #rent-form .form-control {
+        height: 35px;
+    }
+    #buy-form button, #rent-form button {
+        height: 35px;
+    }
+    footer .second-row > .col-xs-12 {
+        padding: 10px;
+    }
+    .popover-content {
+        padding: 5px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
